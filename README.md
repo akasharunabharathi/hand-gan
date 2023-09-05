@@ -18,3 +18,7 @@ You'll notice that a significant number of these generated hands are missing fin
 Future dirctions for this repository included experimenting with the EgoHands Dataset, a dataset containg images of hands doing everyday things, such as holding playing cards, a mug, a pan, or more. It presents a far wider range of poses that would allow for far deeper undertsnading of models' failures to generate images of hands. Perhaps, to allow Gen AI to generate hands, we need to provide temporal data of hand movement to capture every part of the hand, such that no parts are occluded? 
 
 The tech, when mature, could be used to generate animations of hands, hand models for products such as watches, chocolates, etc.!
+
+## Acknowledgements
+
+I was introduced to GANs as part of coursework in college. And [this tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) was super helpful.
