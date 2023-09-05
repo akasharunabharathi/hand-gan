@@ -3,7 +3,7 @@ Vox media published a video claiming that it was hard for generative AI models t
 
 The original video can be found linked [here](https://www.youtube.com/watch?v=24yjRbBah3w).
 
-## Results, and Future Directions
+## Results
 
 The statement did hold up. As a sample, look at the following images:
 
@@ -11,6 +11,10 @@ The statement did hold up. As a sample, look at the following images:
 
 At the outset, these look great! But look closer.
 
-You'll notice that a significant number of these generated hands are missing fingers, or are distorted (more examples in the notebook). And, these were images of still hands, with no occlusion. While I'm unable to theorize why a GAN fails on perfectly clear images of hands, my theory for the broader inability of generative AI models to generate hands is that they don't learn the semantics of joint movement. Future dirctions for this repository included experimenting with the EgoHands Dataset, a dataset containg images of hands doing everyday things, such as holding playing cards, a mug, a pan, or more. It presents a far wider range of poses that would allow for far deeper undertsnading of models' failures to generate images of hands. Perhaps, to allow Gen AI to generate hands, we need to provide temporal data of hand movement to capture every part of the hand, such that no parts are occluded? 
+You'll notice that a significant number of these generated hands are missing fingers, or are distorted (more examples in the notebook). And, these were images of still hands, with no occlusion. While I'm unable to theorize why a GAN fails on perfectly clear images of hands, my theory for the broader inability of generative AI models to generate hands is that they don't learn the semantics of joint movement. 
+
+## Future Directions
+
+Future dirctions for this repository included experimenting with the EgoHands Dataset, a dataset containg images of hands doing everyday things, such as holding playing cards, a mug, a pan, or more. It presents a far wider range of poses that would allow for far deeper undertsnading of models' failures to generate images of hands. Perhaps, to allow Gen AI to generate hands, we need to provide temporal data of hand movement to capture every part of the hand, such that no parts are occluded? 
 
 The tech, when mature, could be used to generate animations of hands, hand models for products such as watches, chocolates, etc.!
